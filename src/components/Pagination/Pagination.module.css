@@ -1,0 +1,26 @@
+.pagination {
+	width: max-content;
+	margin: 0 auto 16px;
+	display: flex;
+	column-gap: 10px;
+	align-items: center;
+}
+
+.pagination__btn {
+	height: 40px;
+	border: 1px solid #000;
+	border-radius: 50%;
+	transition: scale 0.2s ease-out;
+}
+
+.pagination__btn:hover {
+	scale: 0.9;
+}
+
+.pagination__btn-svg {
+	width: 40px;
+}
+
+.pagination__count {
+	font-size: 25px;
+}

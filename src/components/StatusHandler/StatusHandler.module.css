@@ -1,0 +1,17 @@
+.status-header {
+	font-size: 30px;
+	text-align: center;
+	margin-top: 16px;
+}
+
+.reset-filters {
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
+	cursor: pointer;
+	opacity: 0.6;
+	transition: opacity 0.2s ease-out;
+}
+
+.reset-filters:hover {
+	opacity: 1;
+}

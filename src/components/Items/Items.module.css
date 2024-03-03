@@ -1,0 +1,20 @@
+.items {
+	margin: 16px;
+}
+
+.item {
+	display: flex;
+	margin-bottom: 16px;
+}
+
+.count {
+	color: #444;
+}
+
+.price {
+	color: #b12704;
+}
+
+.info {
+	color: #666;
+}
