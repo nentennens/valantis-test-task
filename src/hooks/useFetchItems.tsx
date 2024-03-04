@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { MD5 } from 'crypto-js'
 import { TItem } from '../types'
 
-const apiUrl = 'http://api.valantis.store:40000/'
+const apiUrl = 'https://api.valantis.store:41000/'
 const apiPassword = 'Valantis'
 
 const timestamp = new Date().toISOString().slice(0, 10).replace(/-/g, '')
